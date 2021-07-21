@@ -2,7 +2,7 @@ import { Flex, Text, Image, Box } from '@chakra-ui/react';
 
 export function Banner() {
     return (
-      <Flex backgroundImage="/images/BannerBg.png" align="center" justify="center" w="100%" maxW={1440} minHeight={300} mx="4">
+      <Flex backgroundImage="/images/bannerBg.png" background-repeat="no-repeat" align="center" justify="center" w="100%" minHeight={300} mx="4">
         <Box w="100%" h="100%" justifyContent="center" alignItems="center" display="flex" flexDirection="column">
           <Box maxW={525} px="4">
             <Text color="gray.light" fontWeight="medium" fontSize="36">5 Continents,</Text>
@@ -11,7 +11,7 @@ export function Banner() {
           </Box>
         </Box>
         <Box position="relative" w="100%" h="100%" justifyContent="center" alignItems="center" display="flex" flexDirection="column">
-          <Image position="absolute" bottom={-8} maxWidth={375} src="/images/Airplane.svg" alt="Building" />
+          <Image position="absolute" bottom={-8} maxWidth={375} src="/images/Airplane.svg" alt="Airplane" />
         </Box>
       </Flex>
     );
