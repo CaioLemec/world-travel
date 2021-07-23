@@ -1,5 +1,7 @@
+
 export default function Continent() {
+
     return (
-        <h1>testando</h1>
+            <h1>hello</h1>
     );
 }

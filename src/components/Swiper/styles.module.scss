@@ -1,8 +1,8 @@
 .swiperContainer {
   width: 100%;
-  max-width: 1160px;
-
-  margin-bottom: 40px;
+  max-width: 1240px;
+  max-height: 450px;
+  margin-bottom: 1rem;
 }
 
 .swiperSlide {
@@ -18,5 +18,11 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+
+   img {
+    filter: blur(4px);
+   }
 }
+
+
 

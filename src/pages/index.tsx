@@ -4,6 +4,8 @@ import React from 'react';
 import { Banner } from '../components/Banner';
 import { Icons } from '../components/Icons';
 import { Carousel } from '../components/Swiper';
+import { GetStaticProps } from 'next';
+import { api } from '../services/api';
 import { createServer } from 'miragejs';
 
 createServer({
@@ -14,6 +16,7 @@ createServer({
         {
           id: 1,
           title: 'Africa',
+          description: 'Description about the African continent.',
           countries: 54,
           languages: 1250,
           destinations: [
@@ -47,6 +50,7 @@ createServer({
         {
           id: 2,
           title: 'North-America',
+          description: 'Description about the North American continent.',
           countries: 23,
           languages: '350',
           destinations: [
@@ -70,6 +74,7 @@ createServer({
         {
           id: 3,
           title: 'South-America',
+          description: 'Description about the South American continent.',
           countries: 14,
           languages: 18,
           destinations: [
@@ -108,6 +113,7 @@ createServer({
         {
           id: 4,
           title: 'Asia',
+          description: 'Description about the Asian continent.',
           countries: 49,
           languages: 74,
           destinations: [
@@ -141,6 +147,7 @@ createServer({
         {
           id: 5,
           title: 'Europe',
+          description: 'Description about the European continent.',
           countries: 50,
           languages: 60,
           destinations: [
@@ -174,6 +181,7 @@ createServer({
         {
           id: 6,
           title: 'Oceania',
+          description: 'Description about the Oceanic continent.',
           countries: 14,
           languages: 30,
           destinations: [
@@ -199,14 +207,35 @@ createServer({
   }
 })
 
-export default function Home() {
+interface ContinentsProps {
+  continents: Continent[]
+}
+
+interface Continent {
+  id: number;
+  title: string;
+  description: string;
+  countries: number;
+  languages: number;
+  subtitle: string;
+  destinations: Destinations[];
+}
+
+interface Destinations {
+  country: string;
+  capital: string;
+  img: string;
+}
+
+
+export default function Home({ continents }: ContinentsProps) {
   return (
     <>
     <Head>
       <title> Home | WorldTrip</title>
     </Head>
     <main>
-      <Flex direction="column" h="115vh" w="100%" bg="white" align="center">
+      <Flex direction="column" h="100vh" w="100%" bg="white" align="center">
         <Flex justifyContent="center" w="100%" maxW={1440} my="4">
           <Image alignItems="center" maxW={185} src="/images/Logo.svg" alt="World Trip Logotype" />
         </Flex>
@@ -216,13 +245,21 @@ export default function Home() {
         <Text color="gray.dark" fontWeight="medium" fontSize="24">Let's go?</Text>
         <Text color="gray.dark" fontWeight="medium" fontSize="24" mb="6">Then... Choose an continent</Text>
         <Carousel />
-        <input />
-        <input />
       </Flex>
     </main>
     </>
   )
 }
 
+// export const getStaticProps: GetStaticProps = async () => {
+//   const response = await api.get('/continents');
 
+//   const continents = response.data;
+
+//   return {
+//     props: {
+//       continents
+//     }
+//   }
+// }
 
