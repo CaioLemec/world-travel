@@ -1,0 +1,229 @@
+
+{ 
+
+ "continents": [
+
+    {
+        "id": "Africa",
+        "title": "Africa",
+        "description": "Description about the African continent.",
+        "countries": 54,
+        "languages": 1250,
+        "destinations": [
+            {
+                "id": 1,
+                "country": "Angola",
+                "capital": "Luanda",
+                "img": "/images/places/Africa/Luanda.jpg"
+            },
+            {
+                "id": 2,
+                "country": "Egypt",
+                "capital": "Cairo",
+                "img": "/images/places/Africa/Cairo.jpg"
+            },
+            {
+                "id": 3,
+                "country": "Kenya",
+                "capital": "Nairobi",
+                "img": "/images/places/Africa/Nairobi.jpg"
+            },
+            {
+                "id": 4,
+                "country": "Nigeria",
+                "capital": "Abuja",
+                "img": "/images/places/Africa/Abuja.jpg"
+            },
+            {
+                "id": 5,
+                "country": "South Africa",
+                "capital": "Cape Town",
+                "img": "/images/places/Africa/CapeTown.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": "North-America",
+        "title": "North-America",
+        "description": "Description about the North American continent.",
+        "countries": 23,
+        "languages": 350,
+        "destinations": [
+            {
+                "id": 6,
+                "country": "Canada",
+                "capital": "Ottawa",
+                "img": "/images/places/AmericaNorth/Ottawa.jpg"
+            },
+            {
+                "id": 7,
+                "country": "Mexico",
+                "capital": "Mexico City",
+                "img": "/images/places/AmericaNorth/MexicoCity.jpg"
+            },
+            {
+                "id": 8,
+                "country": "United States",
+                "capital": "Washington",
+                "img": "/images/places/AmericaNorth/Washington.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": "South-America",
+        "title": "South-America",
+        "description": "Description about the South America continent.",
+        "countries": 14,
+        "languages": 18,
+        "destinations": [
+            {
+                "id": 9,
+                "country": "Argentina",
+                "capital": "Buenos Aires",
+                "img": "/images/places/AmericaSouth/Buenos Aires.jpg"
+            },
+            {
+                "id": 10,
+                "country": "Brazil",
+                "capital": "Rio de Janeiro",
+                "img": "/images/places/AmericaSouth/Rio de Janeiro.jpg"
+            },
+            {
+                "id": 11,
+                "country": "Colombia",
+                "capital": "Bogotá",
+                "img": "/images/places/AmericaSouth/Bogotá.jpg"
+            },
+            {
+                "id": 12,
+                "country": "Chile",
+                "capital": "Santiago",
+                "img": "/images/places/AmericaSouth/Santiago.jpg"
+            },
+            {
+                "id": 13,
+                "country": "Peru",
+                "capital": "Lima",
+                "img": "/images/places/AmericaSouth/Lima.jpg"
+            },
+            {
+                "id": 14,
+                "country": "Uruguay",
+                "capital": "Montevideo",
+                "img": "/images/places/AmericaSouth/Montevideo.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": "Asia",
+        "title": "Asia",
+        "description": "Description about the Asian continent.",
+        "countries": 49,
+        "languages": 74,
+        "destinations": [
+            {
+                "id": 15,
+                "country": "China",
+                "capital": "Beijing",
+                "img": "/images/places/Asia/Beijing.jpg"
+            },
+            {
+                "id": 16,
+                "country": "India",
+                "capital": "New Delhi",
+                "img": "/images/places/Asia/New Delhi.jpg"
+            },
+            {
+                "id": 17,
+                "country": "Russia",
+                "capital": "Moscow",
+                "img": "/images/places/Asia/Moscow.jpg"
+            },
+            {
+                "id": 18,
+                "country": "Singapore",
+                "capital": "Singapore",
+                "img": "/images/places/Asia/Singapore.jpg"
+            },
+            {
+                "id": 19,
+                "country": "South Korea",
+                "capital": "Seoul",
+                "img": "/images/places/Asia/Seoul.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": "Europe",
+        "title": "Europe",
+        "description": "Description about the European continent.",
+        "countries": 50,
+        "languages": 60,
+        "destinations": [
+            {
+                "id": 20,
+                "country": "Belgium",
+                "capital": "Brussels",
+                "img": "/images/places/Europe/Brussels.jpg"
+            },
+            {
+                "id": 21,
+                "country": "France",
+                "capital": "Paris",
+                "img": "/images/places/Europe/Paris.jpg"
+            },
+            {
+                "id": 22,
+                "country": "Italy",
+                "capital": "Rome",
+                "img": "/images/places/Europe/Rome.jpg"
+            },
+            {
+                "id": 23,
+                "country": "Netherlands",
+                "capital": "Amsterdam",
+                "img": "/images/places/Europe/Amsterdam.jpg"
+            },
+            {
+                "id": 24,
+                "country": "United Kimdom",
+                "capital": "London",
+                "img": "/images/places/Europe/London.jpg"
+            }
+        ]
+    },
+
+    {
+        "id": "Oceania",
+        "title": "Oceania",
+        "description": "Description about the Oceanic continent.",
+        "countries": 14,
+        "languages": 30,
+        "destinations": [
+            {
+                "id": 25,
+                "country": "Australia",
+                "capital": "Canberra",
+                "img": "/images/places/Oceania/Canberra.jpg"
+            },
+            {
+                "id": 26,
+                "country": "New Zealand",
+                "capital": "Wellington",
+                "img": "/images/places/Oceania/Wellington.jpg"
+            },
+            {
+                "id": 27,
+                "country": "Fiji",
+                "capital": "Suva",
+                "img": "/images/places/Oceania/Suva.jpg"
+            }
+        ]
+    }
+ ]
+
+}
