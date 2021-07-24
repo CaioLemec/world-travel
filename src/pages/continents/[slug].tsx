@@ -1,6 +1,5 @@
 import { Box, Flex, HStack, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { Head } from "next/document";
 import React from "react";
 import { api } from "../../services/api";
 
@@ -65,7 +64,6 @@ export default function Continent({ continent }: ContinentProps) {
                                     <Text p="2" pt="0" fontWeight="500" lineHeight="26px" color="#999999">{destination.country}</Text>
                                 </Box>
                             </Box>
-
                         </Flex>
                     ))}
                 </SimpleGrid>
