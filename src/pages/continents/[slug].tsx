@@ -1,6 +1,5 @@
 import { Box, Flex, HStack, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { Head } from "next/document";
 import React from "react";
 import { api } from "../../services/api";
 
@@ -30,7 +29,7 @@ export default function Continent({ continent }: ContinentProps) {
 
     return (
         <main>
-            <Flex direction="column" h="100vh" w="100%" bg="white" align="center" maxW={1140} mx="auto">
+            <Flex direction="column" h="100%" w="100vw" bg="white" align="center" maxW={1440} mx="auto">
 
                 <Flex justifyContent="center" w="100%" maxW={1440} my="4">
                     <Image alignItems="center" maxW={185} src="/images/Logo.svg" alt="World Trip Logotype" />
@@ -65,7 +64,6 @@ export default function Continent({ continent }: ContinentProps) {
                                     <Text p="2" pt="0" fontWeight="500" lineHeight="26px" color="#999999">{destination.country}</Text>
                                 </Box>
                             </Box>
-
                         </Flex>
                     ))}
                 </SimpleGrid>

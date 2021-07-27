@@ -3,9 +3,8 @@
   max-width: 1240px;
   max-height: 450px;
   margin-bottom: 1rem;
-}
 
-.swiperSlide {
+  .swiperSlide {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -19,10 +18,9 @@
   -webkit-align-items: center;
   align-items: center;
 
-   img {
+    img {
     filter: blur(4px);
-   }
+    }
+  }
 }
-
-
 
