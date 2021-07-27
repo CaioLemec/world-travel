@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="logo" title="OmniTech" src="./public/images/Logo.svg" width="45%" />
+    <img alt="logo" title="Logotype" src="./public/images/Logo.svg" width="45%" />
 </h1>
 <br>
 <p align="center">
