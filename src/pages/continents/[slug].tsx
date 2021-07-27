@@ -29,7 +29,7 @@ export default function Continent({ continent }: ContinentProps) {
 
     return (
         <main>
-            <Flex direction="column" h="100vh" w="100%" bg="white" align="center" maxW={1140} mx="auto">
+            <Flex direction="column" h="100%" w="100vw" bg="white" align="center" maxW={1440} mx="auto">
 
                 <Flex justifyContent="center" w="100%" maxW={1440} my="4">
                     <Image alignItems="center" maxW={185} src="/images/Logo.svg" alt="World Trip Logotype" />

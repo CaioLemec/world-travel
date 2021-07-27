@@ -36,7 +36,7 @@ export default function Home({ continents }: ContinentsProps) {
         <title> Home | WorldTrip</title>
       </Head>
       <main>
-        <Flex direction="column" h="100vh" w="100%" bg="white" align="center">
+        <Flex direction="column" h="100%" w="100%" bg="white" align="center">
           <Flex justifyContent="center" w="100%" maxW={1440} my="4">
             <Image alignItems="center" maxW={185} src="/images/Logo.svg" alt="World Trip Logotype" />
           </Flex>
