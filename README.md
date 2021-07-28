@@ -63,7 +63,7 @@ Follow the instructions to run the application:
 
 1. Clone the repository: 
 ```bash 
-git@github.com:CaioLemec/crypto-monitor.git
+git remote add origin git@github.com:CaioLemec/world-travel.git
 ```
 2. Install all dependencies by using command:
 ```bash
